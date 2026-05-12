@@ -712,8 +712,29 @@ color: #125f5f;
 }
 
 /*baur rasa*/
-.fullvidio{
+.fullvidiotop{
   padding: 100px 20px 100px 20px;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  margin: 0 auto;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.fullvidiotop iframe{
+  justify-content: center;
+  width: 1000px;
+  height: 563px;
+  display: block; /* Ensure video is not inline */
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.fullvidio{
+
   justify-content: center;
   align-self: center;
   position: relative;
