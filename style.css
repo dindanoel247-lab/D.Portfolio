@@ -927,6 +927,16 @@ color: #125f5f;
 .storbor img{
   width: 200px;
 }
+.storborBDG{
+  display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content: center;
+}
+
+.storborBDG img{
+  width: 300px;
+}
 
 .sdykl{
   display: flex;
