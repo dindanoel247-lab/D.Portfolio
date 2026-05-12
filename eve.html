@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sora Illust</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo"><a href="index.html">D.Portfolio</a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#aboutme">About</a></li>
+                <li><a href="index.html#tcs">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    </div>
+    <div class="video-containertopg hidden">
+    <img src="pics/evefullrender.png">
+</div>
+
+    <div class="info-grid">
+  <div class="info-item hidden">
+    <h3>Year</h3>
+    <p>2024</p>
+
+    <h3>Time</h3>
+    <p>22h 19m</p>
+  </div>
+
+  <div class="info-item hidden">
+    <h3>Reference</h3>
+    <p>Eve</p>
+
+    <h3>Type</h3>
+    <p>Illustration</p>
+  </div>
+
+  <div class="info-item hidden">
+    <h3>Title </h3>
+    <p>
+      Jakarta Eve Culture Asia Tour
+    </p>
+  </div>
+
+</div>
+    <div class="judul2 hidden">
+        <img src="pics/eveprof.png">
+    </div>
+    <div class="briefdesc hidden">
+        <h2>The characters inside are referenced from a Japanese singer named Eve with me and my friend's original character. This illustration took place and inspired in one of his concert that held in Indoor Senayan, Jakarta in 2024 with the title "Culture"</h2>
+    </div>
+
+    <div class="sig hidden">
+        <h1>Sketches</h1>
+    </div>
+        <div class="ref">
+        <img class="hidden" src="pics/es1.png">
+        <img class="hidden"  src="pics/es2.png" alt="">
+        <img class="hidden"  src="pics/es3.png" alt="">
+        <img class="hidden"  src="pics/es4.png">
+        </div>
+        <p class="desck hidden">
+            Here are the base, early sketches and color blocking to create the composition before rendering the full illustration
+        </p>
+    
+    <div class="sig hidden">
+        <h1>Timelapse</h1>
+    </div>
+
+    <div class="video-container hidden">
+    <video autoplay muted loop>
+        <source src="vid/timelapseEve.MOV" type="video/mp4">
+    </video>
+</div>
+</div>
+    <p id="contact" class="desck hidden">
+        Here is the full timelapse of the illustration
+    </p>  
+    <div class="kuontak hidden">
+<div id="#contact" class="titleBW"><h3>CONTACTS</h3></div>
+<div class="kontaks">
+   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+   <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  </div>
+    <div class="footer">
+        <a href="#" class="scrollTop">Top</a>
+    </div>
+<footer class="pooter">
+
+    <div class="footer-container">
+
+        <!-- LINKS -->
+        <div class="footer-links">
+
+            <div class="footer-column">
+                <h3>ABOUT</h3>
+
+                <a href="#home">Home</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#tcs">Works</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>WORKS</h3>
+
+                <a href="#MotionGraphic">Motion Graphic</a>
+                <a href="#3ddesign">3D Design</a>
+                <a href="#2ddesign">2D design</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>CONTACT</h3>
+
+                <a href="mailto:dindanoel247@gmail.com" target="_blank">dindanoel247@gmail.com</a>
+                <a>+6281316895184</a>
+                <a href="https://www.instagram.com/dr3n._?igsh=bWZ2dXF2NnhjNnBk" target="_blank">Instagram</a>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="footer-right">
+
+            <h1>Dinda. S. F.</h1>
+            <p>Creating visuals and stories.</p>
+
+            <div class="socials">
+                <a href="mailto:dindanoel247@gmail.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@Anoel-o7k" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/dr3n._?igsh=bWZ2dXF2NnhjNnBk" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LINE -->
+    <div class="footer-line"></div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+
+        <p>Indonesia</p>
+
+        <p>© 2026 Dinda Safira fadilllah. All rights reserved</p>
+
+    </div>
+
+</footer>
+<script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menu = document.querySelector(".menu-list");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = ()=>{
+        menu.classList.add("active");
+        menuBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+        body.classList.add("disabledScroll");
+      }
+      cancelBtn.onclick = ()=>{
+        menu.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        cancelBtn.classList.remove("show");
+        body.classList.remove("disabledScroll");
+      }
+  
+      window.onscroll = ()=>{
+        this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+      }
+    </script>
+
+    <script>
+const hiddenElements = document.querySelectorAll('.hidden');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+hiddenElements.forEach((el) => observer.observe(el));
+</script>
+</body>
+</html>
