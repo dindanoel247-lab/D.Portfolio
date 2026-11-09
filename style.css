@@ -246,6 +246,7 @@ display: inline-flex;
     justify-self: center;
     justify-items: center;
     margin: auto;
+    padding-bottom: 80px;
 }
 
 .app-icon{
