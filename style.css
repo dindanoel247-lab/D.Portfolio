@@ -161,9 +161,16 @@ display: inline-flex;
     .leftabot{
       position:relative;
   
-      padding:0px 50px 0px 0px;
+      padding:10px 0px 0px 0px;
 
       border-bottom-left-radius:6px;
+    }
+.techtile {
+      position:relative;
+      z-index:1;
+      display:flex;
+      justify-content:center;
+      align-items:flex-start;
     }
 
     .abotitle{
